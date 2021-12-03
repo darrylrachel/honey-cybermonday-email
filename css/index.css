@@ -1,6 +1,45 @@
 .box {
   border: 1px solid aqua;
 }
-.main {
-  margin:
+.box2 {
+  border: 1px solid rgb(255, 0, 200);
+}
+body {
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+}
+img {
+  border: 0 !important;
+  outline: none !important;
+}
+.header {
+  /* display: inline-block; */
+  margin-top: 30px;
+}
+.background {
+  background-color: #F5F5F5;
+}
+.brand, .rewards {
+  display: inline-block;
+}
+.logo {
+  display: block;
+  max-width: 120px;
+}
+.rewards {
+  float: right;
+}
+.gold-icon {
+  padding-right: 5px;
+  max-width: 16px;
+}
+.gold-rewards {
+  display: block;
+}
+.points {
+  padding-top: 4px;
+}
+.hero {
+  width: 600px;
 }
