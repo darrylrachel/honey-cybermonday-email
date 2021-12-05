@@ -8,17 +8,35 @@ body {
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
+  margin: 0;
+}
+td {
+  padding: 0;
 }
 img {
   border: 0 !important;
   outline: none !important;
 }
+table {
+  border-spacing: 0;
+}
+.wrapper {
+  width: 100%;
+  table-layout: fixed; /* makes center tag no larger than nested tables inside */
+  padding-bottom: 40px;
+  border: 1px solid aqua;
+}
+.main {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 600px;
+  border-spacing: 0;
+}
 .header {
-  /* display: inline-block; */
   margin-top: 30px;
 }
-.background {
-  background-color: #F5F5F5;
+.spacer {
+  padding-top: 15px;
 }
 .brand, .rewards {
   display: inline-block;
@@ -38,8 +56,58 @@ img {
   display: block;
 }
 .points {
+  float: right;
   padding-top: 4px;
 }
 .hero {
   width: 600px;
 }
+.deals-button {
+  color: #ffffff;
+  background-color: #003381;
+  border-radius: 5px;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+.small {
+  color: #707070;
+  font-size: 10px;
+}
+.col-wrapper {
+  width: 100%;
+  max-width: 575px;
+}
+.wht-wrapper {
+  background-color: #ffffff;
+  width: 100%;
+  /* margin-bottom: 10px; */
+  padding: 20px 15px 0px 15px;
+}
+.orange-button {
+  background-color: #CC4B06;
+  border: 1px solid #CC4B06;
+  border-radius: 3px;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 0;
+  padding: 15px 40px;
+}
+.col-row {
+  width: 100%;
+  max-width: 575px;
+}
+.ICYMI {
+  color: #ffffff;
+  background-color: #3256CE;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 25px 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+}
+
