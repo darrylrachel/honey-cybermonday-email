@@ -33,7 +33,7 @@ table {
   border-spacing: 0;
 }
 .header {
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 .spacer {
   padding-top: 15px;
@@ -95,6 +95,9 @@ table {
   margin: 5px 0;
   padding: 15px 40px;
 }
+.special-button {
+  padding: 15px 20px;
+}
 .col-row {
   width: 100%;
   max-width: 575px;
@@ -109,5 +112,12 @@ table {
   text-decoration: none;
   text-transform: uppercase;
   width: 100%;
+}
+p.offer-text {
+  font-size: 10px;
+  line-height: 16px;
+  color: #212121;
+  text-align: center;
+  /* margin: 0; */
 }
 
